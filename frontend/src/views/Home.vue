@@ -1,23 +1,19 @@
 <script>
 import { mapState, mapGetters, mapActions } from 'vuex';
-import Header from '@/components/Header.vue';
 import CourseDropdown from '@/components/CourseDropdown.vue';
 import CourseSort from '@/components/CourseSort.vue';
 import CourseSearch from '@/components/CourseSearch.vue';
 import CourseTable from '@/components/CourseTable.vue';
 import CourseCards from '@/components/CourseCards.vue';
-import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
-    Header,
     CourseDropdown,
     CourseSort,
     CourseSearch,
     CourseTable,
     CourseCards,
-    Footer,
   },
   props: {
     viewMode: {
@@ -66,7 +62,6 @@ export default {
 
 <template>
   <div>
-    <Header />
     <CourseDropdown />
     <CourseSort @sort="updateSortOption" />
     <CourseSearch @search="updateSearchQuery" />
@@ -76,7 +71,6 @@ export default {
     <div v-else>
       <CourseCards :courses="filteredCourses" />
     </div>
-    <Footer />
   </div>
 </template>
 
