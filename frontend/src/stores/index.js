@@ -4,8 +4,9 @@ import { mockCourses } from '@/mockData.js';
 const store = createStore({
   state: {
     courses: [],
-    sortOption: 'rank', 
-    searchQuery: '', 
+    sortOption: 'rank',
+    searchQuery: '',
+    category: 'All courses',
   },
   mutations: {
     setCourses(state, courses) {
@@ -17,10 +18,18 @@ const store = createStore({
     setSearchQuery(state, query) {
       state.searchQuery = query;
     },
+    setCategory(state, category) {
+      state.category = category;
+    }
   },
   actions: {
-    fetchCourses({ commit }, category) {
-      const filteredCourses = mockCourses.filter(course => course.category === category || category === 'all');
+    fetchCourses({ commit, state }) {
+      let filteredCourses = mockCourses;
+
+      if (state.category !== 'All courses') {
+        filteredCourses = filteredCourses.filter(course => course.category === state.category);
+      }
+
       commit('setCourses', filteredCourses);
     },
   },
@@ -31,7 +40,7 @@ const store = createStore({
       if (state.searchQuery) {
         const query = state.searchQuery.toLowerCase();
         courses = courses.filter(course =>
-          course.name.toLowerCase().includes(query) || 
+          course.course.toLowerCase().includes(query) ||
           course.university.toLowerCase().includes(query)
         );
       }

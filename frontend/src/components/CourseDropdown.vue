@@ -20,9 +20,8 @@ export default {
     <div class="course-dropdown">
         <label for="courseType">Select Course Type:</label>
         <select id="courseType" @change="onCategoryChange">
-         <option value="all">All Courses</option>
-         <option v-for="category in categories" :key="category" :value="category">{{ category }}</option>
-        </select>
+      <option v-for="category in categories" :key="category" :value="category">{{ category }}</option>
+    </select>
     </div>
 </template>
 

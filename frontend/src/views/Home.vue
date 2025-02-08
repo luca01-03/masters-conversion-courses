@@ -31,11 +31,11 @@ export default {
   },
   data() {
     return {
-      categories: ['law', 'medicine'],
+      categories: ['All courses', 'law', 'medicine'],
     };
   },
   computed: {
-    ...mapState(['courses', 'sortOption', 'searchQuery']),
+    ...mapState(['sortOption', 'searchQuery']),
     ...mapGetters(['filteredCourses']),
   },
   watch: {
@@ -57,6 +57,7 @@ export default {
     ...mapActions(['fetchCourses']),
     updateCategory(category) {
       this.$store.commit('setCategory', category);
+      this.fetchCourses();
     },
     updateSortOption(option) {
       this.$store.commit('setSortOption', option);
