@@ -28,7 +28,7 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 .header {
   background-color: #1e3a8a;
   color: #ffffff;

@@ -27,10 +27,6 @@ export default {
 
 
 <style scoped>
-.course-dropdown {
-  margin: 20rem auto 0 ;
-}
-
 label {
   margin-right: 0.5rem;
 }
