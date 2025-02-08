@@ -29,6 +29,11 @@ export default {
       default: ''
     }
   },
+  data() {
+    return {
+      categories: ['law', 'medicine'],
+    };
+  },
   computed: {
     ...mapState(['courses', 'sortOption', 'searchQuery']),
     ...mapGetters(['filteredCourses']),
@@ -50,19 +55,23 @@ export default {
   },
   methods: {
     ...mapActions(['fetchCourses']),
+    updateCategory(category) {
+      this.$store.commit('setCategory', category);
+    },
     updateSortOption(option) {
       this.$store.commit('setSortOption', option);
     },
     updateSearchQuery(query) {
       this.$store.commit('setSearchQuery', query);
     },
-  }
+  },
 };
 </script>
 
+
 <template>
   <div>
-    <CourseDropdown />
+    <CourseDropdown :categories="categories" @category-change="updateCategory" />
     <CourseSort @sort="updateSortOption" />
     <CourseSearch @search="updateSearchQuery" />
     <div v-if="viewMode === 'table'">
@@ -76,5 +85,4 @@ export default {
 
 
 <style scoped>
-
 </style>

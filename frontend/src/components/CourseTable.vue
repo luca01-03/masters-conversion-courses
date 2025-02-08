@@ -37,7 +37,7 @@ export default {
 .course-table {
   width: 80%;
   border-collapse: collapse;
-  margin: 20rem auto 0;
+  margin: 3rem auto 0;
 }
 
 th, td {

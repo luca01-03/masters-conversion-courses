@@ -28,7 +28,7 @@ export default {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  margin: 20rem auto 0;
+  margin: 3em auto 0;
   width: 80%;
 }
 
