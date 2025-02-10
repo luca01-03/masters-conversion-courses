@@ -17,16 +17,10 @@ export default {
   background-color: #1e3a8a; 
   color: #ffffff;
   text-align: center;
-  padding: 1rem;
-  position: fixed; 
+  padding: 0.5rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   left: 0;
-  width: 100%; 
-  box-sizing: border-box; 
-  margin-top: 0.5rem; 
 }
-
-
-
-
-
 </style>

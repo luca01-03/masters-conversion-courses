@@ -16,17 +16,31 @@ function toggleDarkMode() {
 </script>
 
 <template>
-  <Header @toggle-view="toggleViewMode" @toggle-dark-mode="toggleDarkMode" />
-  <RouterView :viewMode="viewMode" />
+  <div class="app-container">
+    <Header @toggle-view="toggleViewMode" @toggle-dark-mode="toggleDarkMode" />
+    <div class="main-content">
+      <RouterView :viewMode="viewMode" />
+    </div>
   <Footer />
+  </div>
 </template>
 
-<style scoped>
+<style>
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
 }
 
 .dark-mode {
