@@ -1,0 +1,268 @@
+[
+    {
+        "rank": 10,
+        "url": "https://www.lboro.ac.uk/study/postgraduate/masters-degrees/a-z/computer-science/",
+        "course": "MSc Computer Science",
+        "university": "Loughborough University",
+        "category": "IT"
+    },
+    {
+        "rank": 22,
+        "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-msc",
+        "course": "MSc Computer Science",
+        "university": "University of Birmingham",
+        "category": "IT"
+    },
+    {
+        "rank": 39,
+        "url": "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/computer-science-conversion-msc/",
+        "course": "MSc Computer Science",
+        "university": "Queen Mary UOL",
+        "category": "IT"
+    },
+    {
+        "rank": 45,
+        "url": "https://www.ulster.ac.uk/courses/202526/computing-science-conversion-39230",
+        "course": "MSc Computing Science",
+        "university": "Ulster University",
+        "category": "IT"
+    },
+    {
+        "rank": 90,
+        "url": "https://www.newman.ac.uk/course/msc-computer-science-conversion/january-2025/",
+        "course": "MSc Computer Science",
+        "university": "Birmingham Newman University",
+        "category": "IT"
+    },
+    {
+        "rank": 50,
+        "url": "https://www.brookes.ac.uk/courses/postgraduate/computing",
+        "course": "MSc Computing Science",
+        "university": "Oxford Brookes University",
+        "category": "IT"
+    },
+    {
+        "rank": 40,
+        "url": "https://www.kent.ac.uk/courses/postgraduate/3815/computer-science-cyber-security",
+        "course": "MSc Computer Science (Cyber Security)",
+        "university": "University of Kent",
+        "category": "IT"
+    },
+    {
+        "rank": 57,
+        "url": "https://www.keele.ac.uk/study/postgraduatestudy/postgraduatecourses/computerscience/",
+        "course": "MSc Computer Science",
+        "university": "Keele University",
+        "category": "IT"
+    },
+    {
+        "rank": 40,
+        "url": "https://www.kent.ac.uk/courses/postgraduate/243/computer-science",
+        "course": "MSc Computer Science",
+        "university": "University of Kent",
+        "category": "IT"
+    },
+    {
+        "rank": 107,
+        "url": "https://www.kent.ac.uk/courses/postgraduate/3812/computer-science-artificial-intelligence",
+        "course": "MSc AI",
+        "university": "Birmingham City University",
+        "category": "IT"
+    },
+    {
+        "rank": null,
+        "url": "https://www.law.ac.uk/study/postgraduate/computer-science/msc-computer-science-conversion/",
+        "course": "Msc Computer Science",
+        "university": "University of Law",
+        "category": "IT"
+    },
+    {
+        "rank": 11,
+        "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/",
+        "course": "MSc Computer Science",
+        "university": "University of Bristol",
+        "category": "IT"
+    },
+    {
+        "rank": 38,
+        "url": "https://www.sussex.ac.uk/study/masters/courses/computer-science-conversion-msc",
+        "course": "MSc Computer Science",
+        "university": "University of Sussex",
+        "category": "IT"
+    },
+    {
+        "rank": 122,
+        "url": "https://www.bucks.ac.uk/courses/postgraduate/msc-computer-science-conversion",
+        "course": "Msc Computer Science",
+        "university": "Buckingamshire New University",
+        "category": "IT"
+    },
+    {
+        "rank": 100,
+        "url": "https://www.lsbu.ac.uk/study/course-finder/msc-computer-science-conversion",
+        "course": "Msc Computer Science",
+        "university": "London South Bank University",
+        "category": "IT"
+    },
+    {
+        "rank": 30,
+        "url": "https://www.ncl.ac.uk/postgraduate/degrees/5055f/",
+        "course": "Msc Computer Science",
+        "university": "Newcastle University",
+        "category": "IT"
+    },
+    {
+        "rank": null,
+        "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&MAJR=T195&KEYWORD=msc%20computer%20science%20conversion",
+        "course": "MSc Computer Science",
+        "university": "University College Dublin",
+        "category": "IT"
+    },
+    {
+        "rank": 45,
+        "url": "https://www.ulster.ac.uk/courses/202425/computing-science-conversion-39229",
+        "course": "MSc Computing Science",
+        "university": "Ulster University",
+        "category": "IT"
+    },
+    {
+        "rank": 7,
+        "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc",
+        "course": "MSc Computer Science",
+        "university": "University College London",
+        "category": "IT"
+    },
+    {
+        "rank": 32,
+        "url": "https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/computing-msc",
+        "course": "MSc Computing",
+        "university": "Cardiff University",
+        "category": "IT"
+    },
+    {
+        "rank": 32,
+        "url": "https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/software-engineering",
+        "course": "MSc Software Engineering",
+        "university": "Cardiff University",
+        "category": "IT"
+    },
+    {
+        "rank": 37,
+        "url": "https://www.swansea.ac.uk/postgraduate/taught/maths-comp-sci/computer-science/msc-computer-science/",
+        "course": "MSc Computer Science",
+        "university": "Swansea University",
+        "category": "IT"
+    },
+    {
+        "rank": 6,
+        "url": "https://www.imperial.ac.uk/computing/prospective-students/courses/pg/msc-computing/",
+        "course": "MSc Computing",
+        "university": "Imperial London",
+        "category": "IT"
+    },
+    {
+        "rank": 120,
+        "url": "https://www.westminster.ac.uk/computer-science-and-engineering-courses/2025-26/september/full-time/software-engineering-conversion-msc",
+        "course": "MSc Software Engineering",
+        "university": "University of WestMinster",
+        "category": "IT"
+    },
+    {
+        "rank": 89,
+        "url": "https://www.chester.ac.uk/study/postgraduate/computer-science/",
+        "course": "MSc Computer Science",
+        "university": "University of Chester",
+        "category": "IT"
+    },
+    {
+        "rank": 8,
+        "url": "https://www.bath.ac.uk/courses/postgraduate-2025/taught-postgraduate-courses/msc-computer-science/",
+        "course": "MSc Computer Science",
+        "university": "University of Bath",
+        "category": "IT"
+    },
+    {
+        "rank": 30,
+        "url": "https://www.nottingham.ac.uk/pgstudy/course/taught/computer-science-or-computer-science-artificial-intelligence-msc",
+        "course": "MSc Computer Science",
+        "university": "University of Nottingham",
+        "category": "IT"
+    },
+    {
+        "rank": 16,
+        "url": "https://www.gla.ac.uk/postgraduate/taught/informationtechnology/",
+        "course": "MSc Information Technology",
+        "university": "Universty of Glasgow",
+        "category": "IT"
+    },
+    {
+        "rank": 16,
+        "url": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+        "course": "MSc Software Development",
+        "university": "University of Glasgow",
+        "category": "IT"
+    },
+    {
+        "rank": 15,
+        "url": "https://www.abdn.ac.uk/study/postgraduate-taught/degree-programmes/133/information-technology/",
+        "course": "MSc Information Technology",
+        "university": "University of Aberdeen",
+        "category": "IT"
+    },
+    {
+        "rank": 23,
+        "url": "https://www.liverpool.ac.uk/courses/2025/computer-science-msc",
+        "course": "MSc Computer Science",
+        "university": "University of Liverpool",
+        "category": "IT"
+    },
+    {
+        "rank": 17,
+        "url": "https://online.york.ac.uk/study-online/msc-computer-science-online/",
+        "course": "MSc Computer Science (Online)",
+        "university": "University of York",
+        "category": "IT"
+    },
+    {
+        "rank": 32,
+        "url": "https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/computing-and-it-management-msc",
+        "course": "MSc Computing and IT Management",
+        "university": "Cardiff University",
+        "category": "IT"
+    },
+    {
+        "rank": 2,
+        "url": "https://www.st-andrews.ac.uk/subjects/computer-science/computing-information-technology-msc/#94113",
+        "course": "MSc Computing and Information Technology",
+        "university": "University of St Andrews",
+        "category": "IT"
+    },
+    {
+        "rank": 26,
+        "url": "https://www.qub.ac.uk/courses/postgraduate-taught/software-development-msc/",
+        "course": "MSc Software Development",
+        "university": "Queen’s University Belfast",
+        "category": "IT"
+    },
+    {
+        "rank": 107,
+        "url": "https://www.bcu.ac.uk/courses/computer-science-msc-2024-25",
+        "course": "MSc Computer Science",
+        "university": "Birmingham City University",
+        "category": "IT"
+    },
+    {
+        "rank": 59,
+        "url": "https://www.napier.ac.uk/courses/msc-computing-postgraduate-fulltime",
+        "course": "MSc Computing",
+        "university": "Edinburgh Napie University",
+        "category": "IT"
+    },
+    {
+        "rank": 105,
+        "url": "https://www.sunderland.ac.uk/study/computing/postgraduate-computing/",
+        "course": "MSc Computing",
+        "university": "Sunderland University",
+        "category": "IT"
+    }
+]

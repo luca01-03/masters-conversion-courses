@@ -31,8 +31,9 @@ export default {
   },
   data() {
     return {
-      categories: ['All courses', 'law', 'medicine'],
+      categories: ['law', 'medicine'],
       sortOptions: ['rank', 'university'],
+      defaultCategory: 'law',
     };
   },
   computed: {
@@ -67,6 +68,9 @@ export default {
     updateSearchQuery(query) {
       this.$store.commit('setSearchQuery', query);
     },
+  },
+  created() {
+    this.updateCategory(this.defaultCategory);
   },
 };
 </script>

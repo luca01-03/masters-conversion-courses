@@ -25,7 +25,6 @@ export default {
     </div>
 </template>
 
-
 <style scoped>
 label {
   margin-right: 0.5rem;

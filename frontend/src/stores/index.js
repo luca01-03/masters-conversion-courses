@@ -6,7 +6,7 @@ const store = createStore({
     courses: [],
     sortOption: 'rank',
     searchQuery: '',
-    category: 'All courses',
+    category: '',
   },
   mutations: {
     setCourses(state, courses) {
